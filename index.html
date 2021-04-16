@@ -1,0 +1,959 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./dist/css/style.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="../common/lib/lightcountdown_v1_2/lightcountdown.css">
+    <title>Document</title>
+</head>
+<body>
+
+<section class="main">
+    <section class="header">
+        <div class="header-container">
+
+            <div class="header-container-first">
+                <div class="header-container-first-logo">
+                    <img src="./assets/img/logo.png" alt="logo">
+                </div>
+
+                <div class="header-container-first-title">
+                    Продажа омедненной<br> сварочной проволоки
+                </div>
+            </div>
+
+            <div class="header-container-second">
+                <div class="header-container-second-email">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#f7c302" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                    </svg>
+                    <p class="header-container-second-email-text">
+                        concretestroy@gmail.com
+                    </p>
+                </div>
+
+                <div class="header-container-second-phone">
+                    <div class="header-container-second-phone-info">
+                        <div class="header-container-second-phone-info-number">
+                            <img class="phone-icon" src="assets/img/A1.png" alt="#">
+                            <p class="phone-number">
+                                +375 (00) 000-00-00
+                            </p>
+                        </div>
+
+                        <div class="header-container-second-phone-info-number">
+                            <img class="phone-icon-mts" src="assets/img/mts.png" alt="#">
+                            <p class="phone-number">
+                                +375 (00) 000-00-00
+                            </p>
+                        </div>
+
+                        <p class="header-container-second-phone-info-text">
+                            Звонок бесплатный
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" class="header-container-btn" data-toggle="modal" data-target="#modal-order">
+                Заказать звонок
+            </button>
+        </div>
+    </section>
+
+    <div class="header-mobile">
+        <div class="header-mobile-container">
+            <div class="header-mobile-container-logo">
+                <img src="./assets/img/logo.png" alt="logo">
+            </div>
+
+            <div class="header-mobile-container-phone">
+
+                <div class="header-mobile-container-phone-info">
+                    <div class="header-mobile-container-phone-info-number">
+                        <img class="phone-icon" src="assets/img/A1.png" alt="#">
+                        <p class="phone-number">
+                            +375 (00) 000-00-00
+                        </p>
+                    </div>
+
+                    <div class="header-mobile-container-phone-info-number">
+                        <img class="phone-icon-mts" src="assets/img/mts.png" alt="#">
+                        <p class="phone-number">
+                            +375 (00) 000-00-00
+                        </p>
+                    </div>
+
+                    <p class="header-mobile-container-phone-info-text">
+                        Звонок бесплатный
+                    </p>
+                </div>
+            </div>
+
+            <button type="submit" class="header-mobile-container-btn" data-toggle="modal" data-target="#modal-order">
+                Заказать звонок
+            </button>
+        </div>
+    </div>
+
+    <section class="main-content">
+        <div class="main-content-container">
+            <div class="main-content-container-box">
+                <div class="main-content-container-box-img">
+                    <img src="./assets/img/main/img1.png">
+                </div>
+                <div class="main-content-container-box-label">
+                    от 78 руб./кг
+                    <div class="dot">
+                    </div>
+                </div>
+            </div>
+
+            <h1 class="main-content-container-title">
+                Омедненная сварочная <br />
+                проволока ER70S-6
+                <span>
+                    (аналог СВ08Г2С)
+                </span>
+            </h1>
+
+            <div class="main-content-container-points">
+
+                <div class="main-content-container-points-item">
+                    <div class="main-content-container-points-item-icon">
+                        <img src="./assets/img/main/sprite%20(1).png" alt="">
+                    </div>
+                    <p class="main-content-container-points-item-subtitle">
+                        Качественное <br/> омеднение
+                    </p>
+                </div>
+
+                <div class="main-content-container-points-item">
+                    <div class="main-content-container-points-item-icon">
+                        <img src="./assets/img/main/sprite%20(2).png" alt="">
+                    </div>
+                    <p class="main-content-container-points-item-subtitle">
+                        В наличии <br/> на складе
+                    </p>
+                </div>
+
+                <div class="main-content-container-points-item">
+                    <div class="main-content-container-points-item-icon">
+                        <img src="./assets/img/main/sprite%20(3).png" alt="">
+                    </div>
+                    <p class="main-content-container-points-item-subtitle">
+                        Заказ <br/> от 5 кг
+                    </p>
+                </div>
+
+                <div class="main-content-container-points-item">
+                    <div class="main-content-container-points-item-icon">
+                        <img src="./assets/img/main/sprite%20(4).png" alt="">
+                    </div>
+                    <p class="main-content-container-points-item-subtitle">
+                        Цены ниже <br/> аналогов
+                    </p>
+                </div>
+            </div>
+
+            <div class="main-content-container-form">
+                <div class="main-content-container-form-container">
+                    <div class="main-content-container-form-container-title">Оставьте заявку</div>
+                    <div class="main-content-container-form-container-subtitle">
+                        <p>и получите коммерческое предложение или звоните по номеру
+                            <span>
+                                +375 (00) 000-00-00
+                            </span>
+                        </p>
+                        <p>Предложение будет отправлено на вашу почту автоматически</p>
+                    </div>
+
+                    <div class="countdown-week"></div>
+
+                    <div class="main-content-container-form-container-form">
+                        <form id="form1">
+                            <div class="form-name">
+                                <label for="order-name">
+                                    Ваше имя
+                                </label>
+                                <input type="text" name="name" id="order-name" placeholder="">
+                            </div>
+
+                            <div class="form-phone">
+                                <label for="order-tel">
+                                    Номер телефона
+                                </label>
+                                <input type="text" class="phone" name="phone" id="order-tel" placeholder="+375 (00) 000 00 00" required="">
+                            </div>
+
+                            <!-- <div class="form-email">
+                                <label for="order-email">
+                                    Ваш e-mail
+                                </label>
+                                <input type="text" class="email" name="email" id="order-email" placeholder="">
+                            </div> -->
+                        </form>
+                    </div>
+
+                    <div class="main-content-container-form-container-checkbox">
+                        <div class="main-content-container-form-container-checkbox-icon"></div>
+                        <input type="checkbox" value="1" checked="">
+                        <div class="main-content-container-form-container-checkbox-label">
+                            Я даю
+                            <u>согласие</u>
+                            на обработку персональных данных в соответствии с
+                            <u>политикой конфиденциальности</u>
+                        </div>
+                    </div>
+
+                    <div class="main-content-container-form-container-btn">
+                        <input type="submit" class="button submit" form="form1" value="Получить предложение">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+<section class="catalog-slider">
+    <div class="catalog-slider-container">
+        <h2 class="catalog-slider-container-title">
+            Discover Our
+        </h2>
+        <div class="catalog-slider-container-cards">
+            <div class="card card1">
+                <img src="./assets/img/catalog-slider/DSC_6242.jpg" alt="#">
+<!--                <div class="outofstock">-->
+<!--                    Out of Stock-->
+<!--                </div>-->
+                <div class="onsale">
+                    Sale!
+                </div>
+                <h3 class="title">
+                    5-in-1 Multi Process 120V Welder with 200 Amp LCD Inverter – 120V/240V MIG/TIG/Flux Core/Stick
+                </h3>
+                <div class="price">
+                    <p class="price-old">
+                        500 руб.
+                    </p>
+                    <p class="price-new">
+                        450 руб.
+                    </p>
+                </div>
+                <button type="submit" class="catalog-slider-btn" data-toggle="modal" data-target="#modal-order">
+                    Заказать
+                </button>
+            </div>
+
+            <div class="card card2">
+                <img src="./assets/img/catalog-slider/DSC_6245.jpg" alt="#">
+                <div class="outofstock">
+                    Out of Stock
+                </div>
+<!--                <div class="onsale">-->
+<!--                    Sale!-->
+<!--                </div>-->
+                <h3 class="title">
+                    5-in-1 Multi Process 120V Welder with 200 Amp LCD Inverter – 120V/240V MIG/TIG/Flux Core/Stick
+                </h3>
+                <div class="price">
+                    <p class="price-old">
+                        500 руб.
+                    </p>
+                    <p class="price-new">
+                        450 руб.
+                    </p>
+                </div>
+                <button type="submit" class="catalog-slider-btn" data-toggle="modal" data-target="#modal-order">
+                    Заказать
+                </button>
+            </div>
+
+            <div class="card card3">
+                <img src="./assets/img/catalog-slider/DSC_6242.jpg" alt="#">
+<!--                <div class="outofstock">-->
+<!--                    Out of Stock-->
+<!--                </div>-->
+                <div class="onsale">
+                    Sale!
+                </div>
+                <h3 class="title">
+                    5-in-1 Multi Process 120V Welder with 200 Amp LCD Inverter – 120V/240V MIG/TIG/Flux Core/Stick
+                </h3>
+                <div class="price">
+                    <p class="price-old">
+                        500 руб.
+                    </p>
+                    <p class="price-new">
+                        450 руб.
+                    </p>
+                </div>
+                <button type="submit" class="catalog-slider-btn" data-toggle="modal" data-target="#modal-order">
+                    Заказать
+                </button>
+            </div>
+
+            <div class="card card4">
+                <img src="./assets/img/catalog-slider/DSC_6245.jpg" alt="#">
+                <div class="outofstock">
+                    Out of Stock
+                </div>
+<!--                <div class="onsale">-->
+<!--                    Sale!-->
+<!--                </div>-->
+                <h3 class="title">
+                    5-in-1 Multi Process 120V Welder with 200 Amp LCD Inverter – 120V/240V MIG/TIG/Flux Core/Stick
+                </h3>
+                <div class="price">
+                    <p class="price-old">
+                        500 руб.
+                    </p>
+                    <p class="price-new">
+                        450 руб.
+                    </p>
+                </div>
+                <button type="submit" class="catalog-slider-btn" data-toggle="modal" data-target="#modal-order">
+                    Заказать
+                </button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="catalog">
+    <div class="catalog-container-bg">
+        <h2 class="catalog-container-bg-title">
+            Сварочные аппараты
+        </h2>
+    </div>
+
+    <div class="catalog-container">
+
+        <div class="catalog-container-cards">
+
+            <div class="catalog-card">
+                <h3 class="catalog-card-title">
+                    Универсальные (SAB)
+                </h3>
+
+                <img class="catalog-card-img" src="./assets/img/catalog/list_8.jpg" alt="#">
+
+                <ul class="catalog-card-list">
+                    <li class="catalog-card-list-item">
+                        <img class="catalog-card-list-item-img" src="./assets/img/catalog/406.svg" alt="#">
+                        <p class="catalog-card-list-item-text">
+                            Диаметр электрода 1,6 - 4 мм
+                        </p>
+                    </li>
+
+                    <li class="catalog-card-list-item">
+                        <img class="catalog-card-list-item-img" src="./assets/img/catalog/317.svg" alt="#">
+                        <p class="catalog-card-list-item-text">
+                            Варка/резка металла (мм) до 10 /до 8
+                        </p>
+                    </li>
+
+                    <li class="catalog-card-list-item">
+                        <img class="catalog-card-list-item-img" src="./assets/img/catalog/451.svg" alt="#">
+                        <p class="catalog-card-list-item-text">
+                            d 3mm до 10 часов беспрерывно<br />
+                            d 4mm до 3 часов беспрерывно
+                        </p>
+                    </li>
+
+                    <li class="catalog-card-list-item">
+                        <img class="catalog-card-list-item-img" src="./assets/img/catalog/407.svg" alt="#">
+                        <p class="catalog-card-list-item-text">
+                            Гарантия 3 года
+                        </p>
+                    </li>
+                </ul>
+
+                <button type="submit" class="catalog-card-btn" data-toggle="modal" data-target="#modal-order">
+                    Заказать
+                </button>
+            </div>
+
+            <div class="catalog-card">
+                <h3 class="catalog-card-title">
+                    Профессиональные (SAB)
+                </h3>
+
+                <img class="catalog-card-img" src="./assets/img/catalog/list_9.jpg" alt="#">
+
+                <ul class="catalog-card-list">
+                    <li class="catalog-card-list-item">
+                        <img class="catalog-card-list-item-img" src="./assets/img/catalog/406.svg" alt="#">
+                        <p class="catalog-card-list-item-text">
+                            Диаметр электрода 1,6 - 5 мм
+                        </p>
+                    </li>
+
+                    <li class="catalog-card-list-item">
+                        <img class="catalog-card-list-item-img" src="./assets/img/catalog/317.svg" alt="#">
+                        <p class="catalog-card-list-item-text">
+                            Варка/резка металла (мм) до 12 /до 10
+                        </p>
+                    </li>
+
+                    <li class="catalog-card-list-item">
+                        <img class="catalog-card-list-item-img" src="./assets/img/catalog/451.svg" alt="#">
+                        <p class="catalog-card-list-item-text">
+                            d 4mm до 10 часов беспрерывно<br />
+                            d 5mm до 3 часов беспрерывно
+                        </p>
+                    </li>
+
+                    <li class="catalog-card-list-item">
+                        <img class="catalog-card-list-item-img" src="./assets/img/catalog/407.svg" alt="#">
+                        <p class="catalog-card-list-item-text">
+                            Гарантия 3 года
+                        </p>
+                    </li>
+                </ul>
+
+                <button type="submit" class="catalog-card-btn" data-toggle="modal" data-target="#modal-order">
+                    Заказать
+                </button>
+            </div>
+
+            <div class="catalog-card">
+                <h3 class="catalog-card-title">
+                    Для производства (MMA)
+                </h3>
+
+                <img class="catalog-card-img" src="./assets/img/catalog/list_35.jpg" alt="#">
+
+                <ul class="catalog-card-list">
+                    <li class="catalog-card-list-item">
+                        <img class="catalog-card-list-item-img" src="./assets/img/catalog/406.svg" alt="#">
+                        <p class="catalog-card-list-item-text">
+                            Диаметр электрода 1,6 - 4 мм
+                        </p>
+                    </li>
+
+                    <li class="catalog-card-list-item">
+                        <img class="catalog-card-list-item-img" src="./assets/img/catalog/317.svg" alt="#">
+                        <p class="catalog-card-list-item-text">
+                            Варка/резка металла (мм) до 14 /до 12
+                        </p>
+                    </li>
+
+                    <li class="catalog-card-list-item">
+                        <img class="catalog-card-list-item-img" src="./assets/img/catalog/451.svg" alt="#">
+                        <p class="catalog-card-list-item-text">
+                            d 3mm беспрерывно<br />
+                            d 4mm до 12 часов беспрерывно
+                        </p>
+                    </li>
+
+                    <li class="catalog-card-list-item">
+                        <img class="catalog-card-list-item-img" src="./assets/img/catalog/407.svg" alt="#">
+                        <p class="catalog-card-list-item-text">
+                            Гарантия 5 лет
+                        </p>
+                    </li>
+                </ul>
+
+                <button type="submit" class="catalog-card-btn" data-toggle="modal" data-target="#modal-order">
+                    Заказать
+                </button>
+            </div>
+
+            <div class="catalog-card">
+                <h3 class="catalog-card-title">
+                    Универсальные (SAB)
+                </h3>
+
+                <img class="catalog-card-img" src="./assets/img/catalog/list_8.jpg" alt="#">
+
+                <ul class="catalog-card-list">
+                    <li class="catalog-card-list-item">
+                        <img class="catalog-card-list-item-img" src="./assets/img/catalog/406.svg" alt="#">
+                        <p class="catalog-card-list-item-text">
+                            Диаметр электрода 1,6 - 4 мм
+                        </p>
+                    </li>
+
+                    <li class="catalog-card-list-item">
+                        <img class="catalog-card-list-item-img" src="./assets/img/catalog/317.svg" alt="#">
+                        <p class="catalog-card-list-item-text">
+                            Варка/резка металла (мм) до 10 /до 8
+                        </p>
+                    </li>
+
+                    <li class="catalog-card-list-item">
+                        <img class="catalog-card-list-item-img" src="./assets/img/catalog/451.svg" alt="#">
+                        <p class="catalog-card-list-item-text">
+                            d 3mm до 10 часов беспрерывно<br />
+                            d 4mm до 3 часов беспрерывно
+                        </p>
+                    </li>
+
+                    <li class="catalog-card-list-item">
+                        <img class="catalog-card-list-item-img" src="./assets/img/catalog/407.svg" alt="#">
+                        <p class="catalog-card-list-item-text">
+                            Гарантия 3 года
+                        </p>
+                    </li>
+                </ul>
+
+                <button type="submit" class="catalog-card-btn" data-toggle="modal" data-target="#modal-order">
+                    Заказать
+                </button>
+            </div>
+
+            <div class="catalog-card">
+                <h3 class="catalog-card-title">
+                    Профессиональные (SAB)
+                </h3>
+
+                <img class="catalog-card-img" src="./assets/img/catalog/list_9.jpg" alt="#">
+
+                <ul class="catalog-card-list">
+                    <li class="catalog-card-list-item">
+                        <img class="catalog-card-list-item-img" src="./assets/img/catalog/406.svg" alt="#">
+                        <p class="catalog-card-list-item-text">
+                            Диаметр электрода 1,6 - 5 мм
+                        </p>
+                    </li>
+
+                    <li class="catalog-card-list-item">
+                        <img class="catalog-card-list-item-img" src="./assets/img/catalog/317.svg" alt="#">
+                        <p class="catalog-card-list-item-text">
+                            Варка/резка металла (мм) до 12 /до 10
+                        </p>
+                    </li>
+
+                    <li class="catalog-card-list-item">
+                        <img class="catalog-card-list-item-img" src="./assets/img/catalog/451.svg" alt="#">
+                        <p class="catalog-card-list-item-text">
+                            d 4mm до 10 часов беспрерывно<br />
+                            d 5mm до 3 часов беспрерывно
+                        </p>
+                    </li>
+
+                    <li class="catalog-card-list-item">
+                        <img class="catalog-card-list-item-img" src="./assets/img/catalog/407.svg" alt="#">
+                        <p class="catalog-card-list-item-text">
+                            Гарантия 3 года
+                        </p>
+                    </li>
+                </ul>
+
+                <button type="submit" class="catalog-card-btn" data-toggle="modal" data-target="#modal-order">
+                    Заказать
+                </button>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="advantages">
+    <div class="advantages-container">
+        <h2 class="advantages-container-title">
+            Чем сварочная проволока ER70S-6<br />
+            отличается от аналогов?
+        </h2>
+        <div class="advantages-container-box">
+
+            <div class="row row1">
+                <div class="item item1"><span>Обеспечивает</span> более устойчивое горение дуги</div>
+                <div class="item item2"><span>Гарантирует</span> очень высокое качество шва и повышает его прочность</div>
+                <div class="item item3"><span>Существенно<br> снижает</span> расход медных наконечников сварочного оборудования</div>
+                <div class="item item4"><span>Увеличивает скорость</span> подачи проволоки и производительность труда благодаря гладкому покрытию и рядной намотке</div>
+            </div>
+
+            <div class="advantages-container-box-img">
+            </div>
+
+            <div class="row row2">
+                <div class="item item5"><span>Уменьшает на 40%</span><br> разбрызгивание металла во время сварки</div>
+                <div class="item item6"><span>Идеально подходит</span><br> для полуавтоматов при работе с низколегированными и углеродистыми сталями (до 90% производимого металлопроката)</div>
+                <div class="item item7"><span>Упакована</span> в пластиковые евро-катушки по 5 и 15 кг</div>
+                <div class="item item8"><span>Защищена</span> от внешней среды термоусадочной пленкой</div>
+            </div>
+        </div>
+
+        <div class="advantages-container-box-1020">
+
+            <div class="row-container">
+                <div class="row row1">
+                    <div class="item item1"><span>Обеспечивает</span> более устойчивое горение дуги</div>
+                    <div class="item item2"><span>Гарантирует</span> очень высокое качество шва и повышает его прочность</div>
+                    <div class="item item3"><span>Существенно снижает</span> расход медных наконечников сварочного оборудования</div>
+                    <div class="item item4"><span>Увеличивает скорость</span> подачи проволоки и производительность труда благодаря гладкому покрытию и рядной намотке</div>
+                </div>
+
+                <div class="row row2">
+                    <div class="item item5"><span>Уменьшает на 40%</span> разбрызгивание металла во время сварки</div>
+                    <div class="item item6"><span>Идеально подходит</span> для полуавтоматов при работе с низколегированными и углеродистыми сталями (до 90% производимого металлопроката)</div>
+                    <div class="item item7"><span>Упакована</span> в пластиковые евро-катушки по 5 и 15 кг</div>
+                    <div class="item item8"><span>Защищена</span> от внешней среды термоусадочной пленкой</div>
+                </div>
+            </div>
+
+            <div class="advantages-container-box-1020-img">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="form-order">
+    <div class="form-order-container">
+        <div class="form-order-container-form">
+            <div class="form-order-container-form-container">
+                <div class="form-order-container-form-container-title">Оставьте заявку</div>
+                <div class="form-order-container-form-container-subtitle">
+                    <p>и получите коммерческое предложение или звоните по номеру
+                        <span>
+                                +375 (00) 000-00-00
+                            </span>
+                    </p>
+                    <p>Предложение будет отправлено на вашу почту автоматически</p>
+                </div>
+
+                <div class="form-order-container-form-container-form">
+                    <form id="form3">
+                        <div class="form-name">
+                            <label for="order-name">
+                                Ваше имя
+                            </label>
+                            <input type="text" name="name" id="order-name1" placeholder="">
+                        </div>
+
+                        <div class="form-phone">
+                            <label for="order-tel">
+                                Номер телефона
+                            </label>
+                            <input type="text" class="phone" name="phone" id="order-tel1" placeholder="+375 (00) 000 00 00" required="">
+                        </div>
+
+                        <!-- <div class="form-email">
+                            <label for="order-email">
+                                Ваш e-mail
+                            </label>
+                            <input type="text" class="email" name="email" id="order-email1" placeholder="">
+                        </div> -->
+                    </form>
+                </div>
+
+                <div class="form-order-container-form-container-checkbox">
+                    <div class="form-order-container-form-container-checkbox-icon"></div>
+                    <input type="checkbox" value="1" checked="">
+                    <div class="form-order-container-form-container-checkbox-label">
+                        Я даю согласие на обработку персональных данных в соответствии с политикой конфиденциальности
+                    </div>
+                </div>
+
+                <div class="form-order-container-form-container-btn">
+                    <input type="submit" class="button submit" form="form3" value="Получить предложение">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="delivery">
+    <div class="delivery-container">
+        <div class="row text-center align-items-center">
+            <div class="col-12 my-4">
+                <div class="delivery-container-title">
+                    Доставим быстро и бесплатно в любую точку Беларуси
+                </div>
+                <div class="delivery-container-subtitle">Доставляем во все города, деревни и дачные участки.</div>
+            </div>
+            <div class="col-lg-7 delivery-left text-center">
+                <img class="delivery-left-img" src="./assets/img/delivery/map-belarus.png">
+            </div>
+            <div class="col-lg-4">
+                <form class="delivery-form">
+                    <div class="delivery-form-title">Узнайте сроки доставки в Ваш населенный пункт</div>
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control" placeholder="Укажите ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" class="form-control" placeholder="Введите телефон" required>
+                    </div>
+                    <div class="form-group btm_castom">
+                        <button type="submit" class="btn border-radius-15 btn-warning btn-block btn-lg shadow transition--slide">Узнать о
+                            доставке
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services">
+    <div class="services-container">
+        <h2 class="services-container-title">
+            SALES & SERVICES
+        </h2>
+
+        <div class="services-container-content">
+            <div class="services-container-content-leftblock">
+                <img src="./assets/img/services/banner.jpg" alt="#">
+            </div>
+
+            <div class="services-container-content-rightblock">
+                <h3 class="services-container-content-rightblock-subtitle">Bonding as strong as Welding!</h3>
+                <div class="services-container-content-rightblock-info">
+                    <p class="services-container-content-rightblock-info-text">
+                        We are committed to providing technologically advanced, reliable and highly durable products and industry knowledge along with superior customer service and support. Our sales and service team is always ready to guide you in pre-sales and post-sales services or any technical assistance regarding welding.
+                    </p>
+                    <p class="services-container-content-rightblock-info-text">
+                        We are keen to expand our network by tying up with a committed and devoted team of channel partners across the globe. Call us on our toll-free 1800 103 3421 or you can reach us through email at
+                        <a href="mailto:service@wimindia.com" target="_blank">service@wimindia.com</a>
+                        &amp;
+                        <a href="mailto:sales@wimindia.com" target="_blank">sales@wimindia.com</a>
+                    </p>
+                </div>
+                <button type="submit" class="services-container-content-rightblock-btn" data-toggle="modal" data-target="#modal-order">
+                    Заказать звонок
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="reviews">
+    <div class="reviews-container">
+        <h2 class="reviews-container-title">
+            Отзывы наших клиентов
+        </h2>
+        <div class="reviews-container-card">
+            <div class="reviews-container-card-text">
+                Искал недорогой , но качественный триммер. В садовых магазинах смотрел из представленного, ничего не впечатлило. Рискнул заказать&nbsp; (увидел положительные отзывы). Первый сезон работы - полет нормалный, работает исправно, никаких проблем нет. Заказал в&nbsp;интернет-магазине agrodachnik, доставили на след. день. Покупкой полностью доволен!
+            </div>
+            <div class="reviews-container-card-name">
+                <div class="photo">
+                    <img src="./assets/img/reviews/user1.jpg" alt="">
+                </div>
+
+                <p class="reviews-container-card-name-item">
+                    Алексей,<br />г.Зельва
+                </p>
+
+            </div>
+        </div>
+
+        <div class="reviews-container-card">
+            <div class="reviews-container-card-name">
+                <div class="photo">
+                    <img src="./assets/img/reviews/user2.jpg" alt="">
+                </div>
+
+                <p class="reviews-container-card-name-item">
+                    Антон,<br />д.Барановичи
+                </p>
+            </div>
+            <div class="reviews-container-card-text">
+                У меня участок 15 соток и еще соседний участок родителей. Хороший триммер для меня &nbsp;- необходимость. Выбирал агрегат исходя из характеристик и качества. Смотрел на мощность, качество сборки.&nbsp;Был приятно удивлен еще и ценой!&nbsp;&nbsp;&nbsp;Заказал с доставкой. Привезли через 2 дня как и обещали. Комплектация - все как заявлено. Триммер добротный, увесистый. Не зря в комплекте рюкзак на плечи идет.<br />
+                Покупкой доволен! Оценка магазину 10 из 10!
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="form-order2">
+    <div class="form-order2-container">
+        <div class="form-order2-container-form">
+            <div class="form-order2-container-form-container">
+                <div class="form-order2-container-form-container-title">Оставьте заявку</div>
+                <div class="form-order2-container-form-container-subtitle">
+                    <p>и получите коммерческое предложение или звоните по номеру
+                        <span>
+                                +375 (00) 000-00-00
+                            </span>
+                    </p>
+                    <p>Предложение будет отправлено на вашу почту автоматически</p>
+                </div>
+
+                <div class="form-order2-container-form-container-form">
+                    <form id="form2">
+                        <div class="form-name">
+                            <label for="order-name">
+                                Ваше имя
+                            </label>
+                            <input type="text" name="name" id="order-name2" placeholder="">
+                        </div>
+
+                        <div class="form-phone">
+                            <label for="order-tel">
+                                Номер телефона
+                            </label>
+                            <input type="text" class="phone" name="phone" id="order-tel2" placeholder="+375 (00) 000 00 00" required="">
+                        </div>
+
+                        <!-- <div class="form-email">
+                            <label for="order-email">
+                                Ваш e-mail
+                            </label>
+                            <input type="text" class="email" name="email" id="order-email2" placeholder="">
+                        </div> -->
+                    </form>
+                </div>
+
+                <div class="form-order2-container-form-container-checkbox">
+                    <div class="form-order2-container-form-container-checkbox-icon"></div>
+                    <input type="checkbox" value="1" checked="">
+                    <div class="form-order2-container-form-container-checkbox-label">
+                        Я даю согласие на обработку персональных данных в соответствии с политикой конфиденциальности
+                    </div>
+                </div>
+
+                <div class="form-order2-container-form-container-btn">
+                    <input type="submit" class="button" form="form2" value="Получить предложение">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer">
+        <div class="footer-container">
+            <ul class="footer-container-name">
+                <li><span>ООО Торговый Дом «Динамик»</span></li>
+                <li><span> ИНН:</span> 6686082799 </li>
+                <li><span>КПП:</span> 668601001</li>
+            </ul>
+
+            <div class="block-center">
+                <div class="block-center-email">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#f7c302" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                    </svg>
+                    <p class="block-center-email-text">
+                        concretestroy@gmail.com
+                    </p>
+                </div>
+
+                <div class="block-center-phone">
+
+                    <div class="block-center-phone-info">
+                        <div class="block-center-phone-info-number">
+                            <img class="phone-icon" src="assets/img/A1.png" alt="#">
+                            <p class="phone-number">
+                                +375 (00) 000-00-00
+                            </p>
+                        </div>
+
+                        <div class="block-center-phone-info-number">
+                            <img class="phone-icon-mts" src="assets/img/mts.png" alt="#">
+                            <p class="phone-number">
+                                +375 (00) 000-00-00
+                            </p>
+                        </div>
+
+                        <p class="block-center-phone-info-text">
+                            Звонок бесплатный
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" class="footer-container-btn" data-toggle="modal" data-target="#modal-order">
+                Заказать звонок
+            </button>
+        </div>
+    </div>
+</footer>
+
+
+<div class="gift pulse">
+    <i class="fa fa-gift" aria-hidden="true"></i>
+    <span class="gift-btn">Нажмите и получите подарок</span>
+</div>
+
+<div class="gift-form p-3 animate__animated animate__rotateInDownLeft">
+    <form class="">
+        <div class="gift-form__header text-center font-weight-bold">
+            <span class="close-btn">X</span>
+            <h4 class="gift-form__title">Забери свой ПОДАРОК!</h4>
+            <div class="w-50 mx-auto my-3">
+                <img src="./assets/img/podarok.png" class="w-100" alt="">
+            </div>
+        </div>
+        <div class="gift-form__body mt-1">
+            <label for="giftName">
+                Представьтесь, пожалуйста
+            </label>
+            <div class="input-group mb-3">
+                <input type="text" id="giftName" class="form-control" name="name" placeholder="Ваше Имя">
+            </div>
+            <label for="giftPhone">
+                Ваш телефон
+            </label>
+            <div class="input-group mb-3">
+                <input type="text" id="giftPhone" class="form-control" name="phone" placeholder="Ваш телефон" required="">
+            </div>
+            <div class="btn-custom mb-4">
+                <button type="submit" class="w-100 my-2 btn-gift text-uppercase text-black">
+                    Получить подарок
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+<div class="modal fade" id="modal-order">
+    <div class="modal-dialog modal-md" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <p class="h2 modal-title">Оставьте заявку <br/><span class="modal-subtitle">и мы свяжемся с Вами в ближайшее время</span>
+                </p>
+                <hr>
+                <form>
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control" placeholder="Введите Ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" class="form-control" placeholder="Ведите Ваш номер телефона"
+                               required>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-warning btn-lg btn-block app-ff&#45;&#45;alt">Заказать звонок
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="../common/lib/lightcountdown_v1_2/lightcountdown.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous"></script>
+<script type="text/javascript" src="dist/js/main.min.js"></script>
+</body>
+</html>

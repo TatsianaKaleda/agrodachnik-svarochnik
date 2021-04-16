@@ -1,0 +1,128 @@
+.services {
+  background: black;
+  height: 100%;
+
+  &-container {
+    padding: 50px 15px;
+
+    &-title {
+      text-align: center;
+      font-size: 3.6rem;
+      line-height: 36px;
+      margin: 0 0 35px 0;
+      color: #ffffff;
+      font-weight: 600;
+
+      @media (max-width: 536px) {
+        font-size: 2.5rem;
+      }
+    }
+
+    &-content {
+      display: flex;
+      justify-content: space-between;
+
+      &-leftblock {
+        margin-right: 15px;
+
+        & img {
+          @media (max-width: 1430px) {
+            width: 800px;
+          }
+
+          @media (max-width: 1300px) {
+            width: 600px;
+          }
+
+          @media (max-width: 1111px) {
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 20px;
+          }
+        }
+        @media (max-width: 1111px) {
+          margin-right: 0;
+        }
+
+      }
+
+      &-rightblock {
+        padding: 10px;
+
+        &-subtitle {
+          margin: 0;
+          font-size: 3rem;
+          line-height: 32px;
+          text-align: center;
+          font-weight: 600;
+          padding: 0px 15px 18px 15px;
+          color: #f7c302;
+
+          @media (max-width: 536px) {
+            font-size: 2.5rem;
+          }
+        }
+
+        &-info {
+          border-top: solid 1px #f7c302;
+          border-bottom: solid 1px #f7c302;
+
+          &-text {
+            margin: 0;
+            font-size: 1.5rem;
+            line-height: 22px;
+            text-align: center;
+            font-weight: 300;
+            padding: 10px 15px 10px 15px;
+            color: #ffffff;
+
+            & a {
+              color: #f7c302;
+              text-decoration: none;
+
+              &:visited,
+              &:focus,
+              &:active,
+              &:hover {
+                outline: 0 none !important;
+              }
+            }
+          }
+        }
+
+        &-btn {
+          margin: 30px auto 0;
+          padding: 1px 24px 0;
+          display: block;
+          height: 35px;
+          font-size: 1.8rem;
+          text-align: center;
+          letter-spacing: .5px;
+          color: #000;
+          font-weight: 500;
+          line-height: 1;
+          text-transform: uppercase;
+          background: linear-gradient(to bottom,#ffe174 0,#f7c302 100%);
+          border-radius: 50px;
+          border: 0;
+          border-bottom: 1px solid #ffe174;
+
+          &:hover {
+            padding: 0 24px 1px;
+            border-top: 1px solid #ffe174;
+            border-bottom: 0;
+            background: linear-gradient(to bottom,#f7c302 0,#ffe174 100%);
+          }
+
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+
+      @media (max-width: 1111px) {
+        flex-direction: column;
+      }
+    }
+  }
+}

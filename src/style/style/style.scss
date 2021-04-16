@@ -1,0 +1,50 @@
+@import "node_modules/reset-css/sass/reset.scss";
+@import "main.scss";
+@import "header.scss";
+@import "main-content.scss";
+@import "catalog-slider.scss";
+@import "catalog.scss";
+@import "advantages.scss";
+@import "delivery.scss";
+@import "services.scss";
+@import "reviews.scss";
+@import "footer.scss";
+@import "form-order.scss";
+@import "form-order2.scss";
+@import "gift.scss";
+@import "modal-order.scss";
+
+
+html {
+  font-size: 10px;
+  transition: font-size 0.3s linear, padding 0.3s linear;
+
+  @media (max-width: 1024px) {
+    font-size: 9px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 8px;
+  }
+
+  @media (max-width: 425px) {
+    font-size: 7px;
+  }
+
+  @media (max-width: 320px) {
+    font-size: 6px;
+  }
+}
+
+body {
+  overflow-x: hidden;
+  margin-bottom: 50px;
+  font-family: 'Lato', sans-serif;
+  background-color: black;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
